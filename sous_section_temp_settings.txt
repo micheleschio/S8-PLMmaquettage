@@ -1,1 +1,19 @@
 TEMP_SETTINGS
+Lower wishbone front pivot
+Not Defined
+Not Defined
+Not Defined
+Not Defined
+Not Defined
+     -21.5000         75.0000         163.000
+            1           0           1          -1           1           0           0           0           0
+            0           0           0           0           0           0           0
+Lower wishbone rear pivot
+Not Defined
+Not Defined
+Not Defined
+Not Defined
+Not Defined
+      588.000         75.0000         165.000
+            2           0           1          -1           2           0           0           0           0
+            0           0           0           0           0           0           0
