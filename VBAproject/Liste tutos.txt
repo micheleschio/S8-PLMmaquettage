@@ -1,0 +1,5 @@
+#Liste de tutoriels utiles
+
+
+
+Manipulation de chaînes de caractère https://silkyroad.developpez.com/VBA/ManipulerChainesCaracteres/
