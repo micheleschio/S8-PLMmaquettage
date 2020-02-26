@@ -1,4 +1,13 @@
 TEMP_SETTINGS
+           15
+Double Wishbone, Rocker arm damper
+            6          2          12          16           3
+Lower Wishbone
+Upper Wishbone
+Track Rod
+Pull Rod
+Rocker
+Upright
 Lower wishbone front pivot
 Not Defined
 Not Defined
@@ -8,12 +17,47 @@ Not Defined
      -21.5000         75.0000         163.000
             1           0           1          -1           1           0           0           0           0
             0           0           0           0           0           0           0
-Lower wishbone rear pivot
+cockpit RT
 Not Defined
 Not Defined
 Not Defined
 Not Defined
 Not Defined
-      588.000         75.0000         165.000
-            2           0           1          -1           2           0           0           0           0
+      0.00000         0.00000         0.00000
+            0           0          -1           0           0           0           0           0           0
             0           0           0           0           0           0           0
+            1           2           3
+      0.00000         0.00000         0.00000
+      1.00000         1.00000         1.00000
+TEMP_SETTINGS
+           15
+Double Wishbone, Rocker arm damper
+            6          2          12          16           3
+Lower Wishbone
+Upper Wishbone
+Track Rod
+Pull Rod
+Rocker
+Upright
+Lower wishbone front pivot
+Not Defined
+Not Defined
+Not Defined
+Not Defined
+Not Defined
+     -21.5000         75.0000         163.000
+            1           0           1          -1           1           0           0           0           0
+            0           0           0           0           0           0           0
+cockpit RT
+Not Defined
+Not Defined
+Not Defined
+Not Defined
+Not Defined
+      0.00000         0.00000         0.00000
+            0           0          -1           0           0           0           0           0           0
+            0           0           0           0           0           0           0
+            1           2           3
+      0.00000         0.00000         0.00000
+      1.00000         1.00000         1.00000
+EXTENDED_TYRE
