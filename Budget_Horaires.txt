@@ -1,0 +1,19 @@
+Etapes : 
+
+
+
+- Ouvrir un fichier           -> ok
+- Lire proprement les différents points dans Lotus (1-2h)
+- Sauvegarder ces points proprement (2h)
+- Lier ces valeurs aux bonnes références dans Suspension_Wireframe (6h)
+- Tester différentes configurations et voir si les modifications ont bien lieu (1h)
+- Débugger (6h)
+- Rédiger le rapport (Temps personnel)
+
+
+
+
+
+
+Nb de séances restantes : 5 séances ie 17h (on oublie pas le RU 30)
+Heures personnelles à ajouter (normalement) : 17h
