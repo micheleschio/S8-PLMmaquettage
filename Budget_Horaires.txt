@@ -1,17 +1,15 @@
 Etapes : 
 
-
-
-- Ouvrir un fichier           -> ok
-- Lire proprement les différents points dans Lotus (1-2h)
-- Sauvegarder ces points proprement (2h)
-- Lier ces valeurs aux bonnes références dans Suspension_Wireframe (6h)
-- Tester différentes configurations et voir si les modifications ont bien lieu (1h)
-- Débugger (6h)
-- Rédiger le rapport (Temps personnel)
-
-
-
+- [x]	(1h)	Ouvrir un fichier
+- [x]	(1-2h)	Lire proprement les différents points dans Lotus 
+- [90%]	(2h)	Sauvegarder ces points proprement
+- [20%]	(1h)	redaction rapport section: lecture du fichier
+- []	(6h)	Lier ces valeurs aux bonnes références dans Suspension_Wireframe
+- []	(1h)	Tester différentes configurations et voir si les modifications ont bien lieu
+- []	(1h)	redation rapport section : structure du suspension wireframe et sa mise à jour
+- []	(2h)	Interface graphique pour choisir le fichier Lotus et affichier les messages d'erreur
+- []	(4h)	Débugger
+- []	(2h)	Rédaction finale rapport
 
 
 
