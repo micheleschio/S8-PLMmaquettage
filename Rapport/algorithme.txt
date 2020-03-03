@@ -1,0 +1,16 @@
+WireframeDefinition.CATProduct
+	|- LotusPoints.CATPart
+	|- Wireframe_A01.CATPart
+	|- Wireframe_A02.CATPart
+	|- ...
+	
+Suspension.CATProduct
+	|-XX_A0100.CATProduct
+	|	|- Wireframe_A01.CATPart
+	|	|- XX_01001.CATPart
+	|	|- XX_01002.CATPart
+	|	|- ...
+	|-XX_A0200.CATProduct
+	|	|- Wireframe_A02.CATPart
+	|	|- XX_02001.CATPart
+	|
