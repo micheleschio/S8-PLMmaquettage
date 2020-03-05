@@ -1,0 +1,8 @@
+#Liste de tutoriels utiles
+
+
+
+Manipulation de chaînes de caractère https://silkyroad.developpez.com/VBA/ManipulerChainesCaracteres/
+
+
+Gestion des variables : https://www.excel-pratique.com/fr/vba/variables_suite
