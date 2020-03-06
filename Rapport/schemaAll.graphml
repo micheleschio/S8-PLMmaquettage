@@ -64,7 +64,7 @@
 	</data>
 	<graph id="G" edgedefault="directed">
 		<data key="d5">
-			<y:Json>{"version":"2.0.0","theme":{"name":"light","version":"1.0.0"},"layout":"layout-flowchart","config":{"noObf_positiveBranchLabel":[],"noObf_negativeBranchLabel":[],"noObf_layoutOrientation":"TOP_TO_BOTTOM","noObf_preferredPositiveBranchDirection":1,"noObf_preferredNegativeBranchDirection":12,"noObf_inEdgeGrouping":"optimized","noObf_allowFlatwiseEdges":true,"noObf_nodeToNodeDistance":30,"noObf_minimumEdgeDistance":30,"noObf_minimumEdgeLength":20,"noObf_placeNodeLabels":true}}</y:Json>
+			<y:Json>{"version":"2.0.0","theme":{"name":"light","version":"1.0.0"}}</y:Json>
 		</data>
 		<node id="n0">
 			<data key="d3">
@@ -277,7 +277,7 @@
 						<y:RectD X="723.875" Y="555.625" Width="72.75" Height="68"/>
 					</data>
 					<data key="d6">
-						<y:GraphMLReference ResourceKey="5"/>
+						<demostyle:FlowchartNodeStyle type="document" fill="#FFF7DE97"/>
 					</data>
 					<port name="p0"/>
 					<port name="p1"/>
@@ -295,7 +295,7 @@
 						<y:RectD X="825.375" Y="555.625" Width="72.75" Height="68"/>
 					</data>
 					<data key="d6">
-						<y:GraphMLReference ResourceKey="5"/>
+						<demostyle:FlowchartNodeStyle type="document" fill="#FFF7DE97"/>
 					</data>
 					<port name="p0"/>
 					<port name="p1">
@@ -317,7 +317,7 @@
 						<y:RectD X="926.875" Y="555.625" Width="69.375" Height="68"/>
 					</data>
 					<data key="d6">
-						<y:GraphMLReference ResourceKey="5"/>
+						<demostyle:FlowchartNodeStyle type="document" fill="#FFF7DE97"/>
 					</data>
 					<port name="p0"/>
 					<port name="p1"/>
@@ -538,7 +538,7 @@
 								<y:RectD X="1403" Y="523.75" Width="72.75" Height="38.625"/>
 							</data>
 							<data key="d6">
-								<y:GraphMLReference ResourceKey="14"/>
+								<demostyle:FlowchartNodeStyle type="document" fill="#FFF7DE97"/>
 							</data>
 							<port name="p0"/>
 							<port name="p1"/>
@@ -636,7 +636,7 @@
 								<y:RectD X="1508.25" Y="523.75" Width="72.75" Height="38.625"/>
 							</data>
 							<data key="d6">
-								<y:GraphMLReference ResourceKey="14"/>
+								<demostyle:FlowchartNodeStyle type="document" fill="#FFF7DE97"/>
 							</data>
 							<port name="p0"/>
 							<port name="p1"/>
@@ -734,7 +734,7 @@
 								<y:RectD X="1613.5" Y="523.75" Width="72.75" Height="38.625"/>
 							</data>
 							<data key="d6">
-								<y:GraphMLReference ResourceKey="14"/>
+								<demostyle:FlowchartNodeStyle type="document" fill="#FFF7DE97"/>
 							</data>
 							<port name="p0"/>
 							<port name="p1"/>
@@ -810,9 +810,7 @@
 		<edge id="e0" source="n2" target="n4" sourceport="p0" targetport="p0">
 			<data key="d11">
 				<x:List>
-					<y:Bend Location="1032.5,120.875"/>
-					<y:Bend Location="1032.5,162.625"/>
-					<y:Bend Location="1025.5,162.625"/>
+					<y:Bend Location="1025.5,120.875"/>
 				</x:List>
 			</data>
 			<data key="d12">
@@ -822,9 +820,7 @@
 		<edge id="e1" source="n1" target="n4" sourceport="p0" targetport="p1">
 			<data key="d11">
 				<x:List>
-					<y:Bend Location="1032.5,64.125"/>
-					<y:Bend Location="1032.5,134.25"/>
-					<y:Bend Location="1025.5,134.25"/>
+					<y:Bend Location="1025.5,64.125"/>
 				</x:List>
 			</data>
 			<data key="d12">
