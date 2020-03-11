@@ -19,8 +19,10 @@ INTERFACE GRAPHIQUE
 - [50%]	(2h)	Rédaction rapport : section interface graphique
 
 EXEMPLE D'UTILISATION 
-- []	(1h)	création du filaire triangle 
+- []	(1h)	création du filaire Invictus 
 - []	(2h)	création du produit conception détaillée pour montrer le principe de fonctionnement de la macro
+- []	(2h)	mise en parallèle avec Mecamaster
+- []	(2h)	test/proposition structure catia pour le chassis 	
 
 FINALISATION DU RAPPORT
 - [10%]	(1h)	annexe installation macro
