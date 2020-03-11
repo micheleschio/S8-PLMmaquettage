@@ -1,15 +1,30 @@
-Etapes : 
+Etapes :
 
+LECTURE DU FICHIER LOTUS
 - [x]	(1h)	Ouvrir un fichier
 - [x]	(1-2h)	Lire proprement les différents points dans Lotus 
 - [90%]	(2h)	Sauvegarder ces points proprement
 - [20%]	(1h)	redaction rapport section: lecture du fichier
-- []	(6h)	Lier ces valeurs aux bonnes références dans Suspension_Wireframe
-- []	(1h)	Tester différentes configurations et voir si les modifications ont bien lieu
-- []	(1h)	redation rapport section : structure du suspension wireframe et sa mise à jour
-- []	(2h)	Interface graphique pour choisir le fichier Lotus et affichier les messages d'erreur
-- []	(4h)	Débugger
-- []	(2h)	Rédaction finale rapport
+
+MAJ CATIA
+- [80%]	(2h)	generation et maj LotusPoints.CATPart
+- [50%]	(2h)	maj WireframeDefinition.CATProduct et autres produits
+- [5%]	(2h)	enregistrement local des paramères Macro pour utilisation successives
+- [30%]	(1h)	Tester différentes configurations et voir si les modifications ont bien lieu
+- [60%]	(1h)	redation rapport section : mise à jour catia
+
+INTERFACE GRAPHIQUE
+- [90%]	(2h)	création de l'intérface graphique
+- []	(4h)	Lien interface lecture de Lotus et maj Catia
+- [50%]	(2h)	Rédaction rapport : section interface graphique
+
+EXEMPLE D'UTILISATION 
+- []	(1h)	création du filaire triangle 
+- []	(2h)	création du produit conception détaillée pour montrer le principe de fonctionnement de la macro
+
+FINALISATION DU RAPPORT
+- [10%]	(1h)	annexe installation macro
+- []	(1h)	relcture finale
 
 
 
