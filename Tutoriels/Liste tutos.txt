@@ -6,3 +6,9 @@ Manipulation de chaînes de caractère https://silkyroad.developpez.com/VBA/Mani
 
 
 Gestion des variables : https://www.excel-pratique.com/fr/vba/variables_suite
+
+
+Tout sur les UserForm : https://silkyroad.developpez.com/VBA/UserForm/#LIV-K
+
+
+Tout sur les StreamObject : https://www.itprotoday.com/devops-and-software-development/understanding-vbscript-textstream-object
