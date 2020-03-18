@@ -2,3 +2,5 @@ C:\Users\mik75\Documents\S8-PLMmaquettage\maquette\wireframe\WireframeDefinition
 C:\Users\mik75\Documents\S8-PLMmaquettage\maquette\Lotus.dat
 C:\Users\Calixthe\Desktop\EPSA\STUF-2020\Invictus.CATProduct
 C:\Users\Calixthe\Desktop\EPSA\STUF-2020\SU_Suspension\Suspension.CATProduct
+C:\Users\Calixthe\Desktop\EPSA\STUF-2020\EN_Engine_Powertrain\Engine & Powertrain.CATProduct
+C:\Users\Calixthe\Desktop\EPSA\STUF-2020\EN_Engine_Powertrain\EN_A1700 (Optimus Intake Manifold)\EN_A0300_Air_intake.CATProduct
