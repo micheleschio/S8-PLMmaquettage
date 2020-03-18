@@ -7,25 +7,27 @@ LECTURE DU FICHIER LOTUS
 - [20%]	(1h)	redaction rapport section: lecture du fichier
 
 MAJ CATIA
-- [80%]	(2h)	generation et maj LotusPoints.CATPart
-- [50%]	(2h)	maj WireframeDefinition.CATProduct et autres produits
-- [5%]	(2h)	enregistrement local des paramères Macro pour utilisation successives
-- [30%]	(1h)	Tester différentes configurations et voir si les modifications ont bien lieu
+- [50%]	(2h)	generation et maj LotusPoints.CATPart (soucis Av - AR)
+- [x]	(1h)	maj WireframeDefinition.CATProduct 
+- [10%] (1h)	maj autres produits
+- [50%]	(1h)	Tester différentes configurations et voir si les modifications ont bien lieu
 - [60%]	(1h)	redation rapport section : mise à jour catia
 
 INTERFACE GRAPHIQUE
 - [90%]	(2h)	création de l'intérface graphique
-- []	(4h)	Lien interface lecture de Lotus et maj Catia
+- [80%]	(4h)	Lien interface lecture de Lotus et maj Catia
+- [60%]	(2h)	enregistrement local des paramères Macro pour utilisation successives
 - [50%]	(2h)	Rédaction rapport : section interface graphique
 
 EXEMPLE D'UTILISATION 
 - []	(1h)	création du filaire Invictus 
 - []	(2h)	création du produit conception détaillée pour montrer le principe de fonctionnement de la macro
-- []	(2h)	mise en parallèle avec Mecamaster
+- []	(2h)	mise en parallèle avec Mecamaster (Covid-19 licence ??)
 - []	(2h)	test/proposition structure catia pour le chassis 	
 
 FINALISATION DU RAPPORT
 - [10%]	(1h)	annexe installation macro
+- [10%]	(1h)	annexe parametrage produits (references externes)
 - []	(1h)	relcture finale
 
 
