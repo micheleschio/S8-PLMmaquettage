@@ -1,4 +1,4 @@
-C:\Users\mik75\Documents\S8-PLMmaquettage\maquette\wireframe\WireframeDefinition.CATProduct
-C:\Users\mik75\Documents\S8-PLMmaquettage\maquette\Lotus.dat
+G:\Centrale\Cours\S8\PLM - Maquette Numérique\S8-PLMmaquettage\Maquette\wireframe\WireframeDefinition.CATProduct
+G:\Centrale\Cours\S8\PLM - Maquette Numérique\S8-PLMmaquettage\Invictus3421_v28.dat
 C:\Users\Calixthe\Desktop\EPSA\STUF-2020\Invictus.CATProduct
-C:\Users\Calixthe\Desktop\EPSA\STUF-2020\SU_Suspension\Suspension.CATProduct
+C:\Users\Calixthe\Desktop\EPSA\STUF-2020\FR_Frame_Body\Frame & Body.CATProduct
