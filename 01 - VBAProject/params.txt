@@ -1,2 +1,2 @@
-C:\Users\mik75\Documents\S8-PLMmaquettage\maquette\wireframe\WireframeDefinition.CATProduct
-C:\Users\mik75\Documents\S8-PLMmaquettage\Invictus3421_v28.dat
+G:\Centrale\Cours\S8\PLM - Maquette Numérique\S8-PLMmaquettage\02 - Exemple_Maquette\wireframe\WireframeDefinition.CATProduct
+G:\Centrale\Cours\S8\PLM - Maquette Numérique\S8-PLMmaquettage\ZZ - Documentation\Invictus3421_v28.dat
