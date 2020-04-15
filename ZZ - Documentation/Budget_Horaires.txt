@@ -23,14 +23,15 @@ INTERFACE GRAPHIQUE
 EXEMPLE D'UTILISATION 
 - [80%]	(1h)	création du filaire Frame et ceux de LAS : il reste à placer filaire ARB et Steering
 - []	(2h)	création du produit conception détaillée pour montrer le principe de fonctionnement de la macro
-- []	(2h)	mise en parallèle avec Mecamaster (Covid-19 licence ??)
-- []	(2h)	test/proposition structure catia pour le chassis
+- []	(2h)	mise en parallèle avec Mecamaster (Covid-19 licence ??) ANNULEE
+- [90%]	(2h)	test/proposition structure catia pour le chassis
 - [] 	(2h)	Remettre les paramètres globaux de la LAS d'Invictus
+- []	(N h)	Remettre proprement liens avec les pièces de la LAS et LotusPoint
 
 FINALISATION DU RAPPORT
-- [10%]	(1h)	annexe installation macro
+- [90%]	(1h)	annexe installation macro
 - [10%]	(1h)	annexe parametrage produits (references externes)
-- []	(1h)	relcture finale
+- []	(1h)	relecture finale
 
 
 
