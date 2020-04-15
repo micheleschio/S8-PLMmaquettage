@@ -5,6 +5,7 @@ LECTURE DU FICHIER LOTUS
 - [x]	(2h)	Lire proprement les différents points dans Lotus 
 - [x]	(2h)	Sauvegarder ces points proprement
 - [x]	(1h)	redaction rapport section: lecture du fichier
+- [0%]	(1h)	Pseudo-code des Subroutine Readtempsetting
 
 MAJ CATIA
 - [x]	(2h)	generation et maj LotusPoints.CATPart (train AV)
@@ -19,6 +20,7 @@ INTERFACE GRAPHIQUE
 - [x]	(4h)	Lien interface lecture de Lotus et maj Catia
 - [x]	(2h)	enregistrement local des paramères Macro pour utilisation successives
 - [90%]	(2h)	Rédaction rapport : section interface graphique
+- [0%]	(1h)	Rédiger les messages d'erreur pris en compte
 
 EXEMPLE D'UTILISATION 
 - [80%]	(1h)	création du filaire Frame et ceux de LAS : il reste à placer filaire ARB et Steering
