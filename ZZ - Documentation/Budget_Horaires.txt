@@ -3,28 +3,29 @@ Etapes :
 LECTURE DU FICHIER LOTUS
 - [x]	(1h)	Ouvrir un fichier
 - [x]	(2h)	Lire proprement les différents points dans Lotus 
-- [90%]	(2h)	Sauvegarder ces points proprement
-- [20%]	(1h)	redaction rapport section: lecture du fichier
+- [x]	(2h)	Sauvegarder ces points proprement
+- [x]	(1h)	redaction rapport section: lecture du fichier
 
 MAJ CATIA
 - [x]	(2h)	generation et maj LotusPoints.CATPart (train AV)
-- [5%] (2h)	generation et maj LotusPoints.CATPart (train AR)
+- [x] (2h)	generation et maj LotusPoints.CATPart (train AR)
 - [x]	(1h)	maj WireframeDefinition.CATProduct 
-- [80%] (1h)	maj autres produits
-- [50%]	(1h)	Tester différentes configurations et voir si les modifications ont bien lieu
-- [60%]	(1h)	redation rapport section : mise à jour catia
+- [70%] (1h)	maj autres produits : il reste un pbm de ByRef à faire
+- [x]	(1h)	Tester différentes configurations et voir si les modifications ont bien lieu 
+- [90%]	(1h)	redation rapport section : mise à jour catia
 
 INTERFACE GRAPHIQUE
-- [x]	(2h)	création de l'intérface graphique
-- [80%]	(4h)	Lien interface lecture de Lotus et maj Catia
-- [60%]	(2h)	enregistrement local des paramères Macro pour utilisation successives
-- [50%]	(2h)	Rédaction rapport : section interface graphique
+- [x]	(2h)	création de l'interface graphique
+- [x]	(4h)	Lien interface lecture de Lotus et maj Catia
+- [x]	(2h)	enregistrement local des paramères Macro pour utilisation successives
+- [90%]	(2h)	Rédaction rapport : section interface graphique
 
 EXEMPLE D'UTILISATION 
-- []	(1h)	création du filaire Invictus 
+- [80%]	(1h)	création du filaire Frame et ceux de LAS : il reste à placer filaire ARB et Steering
 - []	(2h)	création du produit conception détaillée pour montrer le principe de fonctionnement de la macro
 - []	(2h)	mise en parallèle avec Mecamaster (Covid-19 licence ??)
-- []	(2h)	test/proposition structure catia pour le chassis 	
+- []	(2h)	test/proposition structure catia pour le chassis
+- [] 	(2h)	Remettre les paramètres globaux de la LAS d'Invictus
 
 FINALISATION DU RAPPORT
 - [10%]	(1h)	annexe installation macro
