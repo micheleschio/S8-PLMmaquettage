@@ -1,0 +1,31 @@
+\section{Lecture du fichier Lotus}
+\label{lect_lotus}
+
+\subsection{Organisation du code}
+
+La démarche employée a ainsi été de repérer d'abord les deux sections \texttt{TEMP\_SETTINGS} afin de récupérer le nom des points pour créer une liste de noms des points de la Suspension Avant, puis les noms des points de la Suspension Arrière.
+\par Ensuite, le code repère la section \texttt{FRONT\_SUSPENSION} et crée la liste des coordonnées des points de la Suspension Avant, et de manière analogue, la liste des coordonnées des points de la Suspension Arrière est créée.
+
+\par Pour résumer, voilà la structure synthétique du code : 
+
+\begin{enumerate}
+    \item Ouverture du fichier txt
+    \item Lecture des différentes parties de ce document
+    \item Sauvegarde des valeurs lues
+\end{enumerate}
+
+
+\subsection{Bibliothèques utilisées }
+\paragraph{Gestion des chemins de fichier avec accents}  \texttt{Option Compare text} est une bibliothèque à mettre avant le \texttt{Sub}, car il permet de comparer des chaînes selon un ordre de tri alphabétique en ne tenant pas compte de la casse qui est déterminé par les paramètres régionaux du système informatique utilisé.
+
+\paragraph{TextStream} Bibliothèque VBA permettant de créer un fichier TextStream à partir d'un fichier texte. Ce fichier TextStream permet de nombreuses manipulations sur ses lignes sans se soucier d'interférer ou non sur le fichier original. De plus, cette méthode permet d'avoir un objet à passer aux différentes fonctions pour la lecture du texte. Enfin, une fois ce fichier prêt, il est possible de l'enregistrer en tant que fichier txt final.
+
+\paragraph{Dynamic Arrays} On utilise la méthode \texttt{Dim} - \texttt{ReDim} afin de pouvoir définir une liste et de pouvoir déclarer sa taille réelle en fonction des paramètres lus depuis le fichier Lotus. Il faut faire attention car cette définition se fait en utilisant l'indice de la liste et non sa taille (cf. documentation Microsoft pour \texttt{ReDim})
+
+\paragraph{Conversion de string à double} Le caractère de séparation des décimaux dans Lotus est celui du local anglais (le point). Il se peut que dans l'ordinateur où on exécute la macro, le local soit différent de celui anglais et dans ce cas, la conversion d'une \textit{string} en \textit{double} ne se fait pas correctement. Pour cela, on remplace avec \texttt{replace} le caractère point avec une virgule lors de la lecture des cordonnées dans le tableau Lotus puisque changer le séparateur dans le local de la machine n'est pas conseillé.
+
+\subsection{Lecture du fichier \texttt{.dat}}%-------------------------------------
+
+\par Pour la lecture du morceau de texte présenté en Fig. \ref{fig:temp_settings} voir la Subroutine \texttt{ReadTempSettings} et ses commentaires.
+De même pour la lecture du morceau de texte présenté en Fig. \ref{fig:frontSuspension} voir la Subroutine \texttt{ReadSuspension} et ses commentaires.
+

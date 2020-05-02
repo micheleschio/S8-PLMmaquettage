@@ -1,0 +1,40 @@
+\documentclass{rapportECL}
+\usepackage{lipsum}
+\usepackage{gensymb}
+\usepackage{pdfpages}
+\title{Rapport ECL - Template} %Titre du fichier
+
+\begin{document}
+
+%----------- Informations du rapport ---------
+
+\UE{ELC D6 - PLM maquettage numérique} %Nom de la UE
+\sujet{Rapport de projet : VBA Lotus - Catia } %Nom du sujet
+\titre{EPSA - LASauto (v2)} %Titre du fichier .pdf
+
+\enseignant{Didier \textsc{Lacour}\\
+            {Paul \textsc{Clozel}} } %Nom de l'enseignant
+
+\eleves{\textsc{Schio} Michele \\
+        \textsc{Matteï} Calixthe} %Nom des élèves
+
+%----------- Initialisation -------------------
+        
+\fairemarges %Afficher les marges
+\fairepagedegarde %Créer la page de garde
+\tabledematieres %Créer la table de matières
+
+%------------ Corps du rapport ----------------
+
+
+\include{01_introduction}
+\include{02_lectureLotus}
+\include{03_majCatia}
+\include{04_interfaceGraphique}
+\include{05_exemple}
+\include{07_conclusion} 
+
+%-------------- annexe -----------------------
+\appendix
+\include{0Z_annexe}
+\end{document}
