@@ -1,4 +1,2 @@
-C:\Users\mik75\Documents\S8-PLMmaquettage\02 - Exemple_Maquette\wireframe\WireframeDefinition.CATProduct
-C:\Users\mik75\Documents\S8-PLMmaquettage\ZZ - Documentation\Invictus3421_v28.dat
-C:\Users\mik75\Documents\S8-PLMmaquettage\02 - Exemple_Maquette\SU_Suspension\SU_Suspention.CATProduct
-C:\Users\mik75\Documents\S8-PLMmaquettage\02 - Exemple_Maquette\SU_Suspension\SU_A0100 (Front Upper A-Arm)\SU_A0100 (Front Upper A-Arm).CATProduct
+G:\Centrale\Cours\S8\PLM - Maquette Numérique\S8-PLMmaquettage\02 - Exemple_Maquette\wireframe\WireframeDefinition.CATProduct
+G:\Centrale\Cours\S8\PLM - Maquette Numérique\S8-PLMmaquettage\04 - Tests\Test2.dat
