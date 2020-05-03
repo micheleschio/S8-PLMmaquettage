@@ -4,9 +4,9 @@
 
 \par Lotus est un logiciel d'analyse cinématique de la Liaison Au Sol (LAS) d'une voiture. Il permet notamment de définir les points caractéristiques des liaisons types d'une liaison au sol, de définir ces liaisons et d'étudier leur mouvement.
 
-\par La démarche courante à l'EPSA utilise une méthode Excel-Catalog qui est très fonctionnelle mais également un peu lente. Une fois la configuration de points déterminée (sur Lotus), il est nécessaire d'ouvrir un tableau Lotus, de sélectionner manuellement les coordonnées des points, les copier-coller sur un fichier Excel dédié au paramétrage, enregistrer et fermer le fichier Excel, ouvrir le Catalog LASauto, ouvrir la fenêtre de mise à jour, sélectionner tous les composants dans l'arbre, lancer la mise à jour, attendre quelques minutes, fermer le Catalog, ouvrir l'assemblage de travail, faire une mise à jour et vérifier si tout s'est bien passé.
+\par La démarche courante à l'EPSA combine une feuille de calcule Excel avec une génération des pièces par Catalogue CATIA:  cette méthode est très fonctionnelle mais également un peu lente. Une fois la configuration de points déterminée (sur Lotus), il est nécessaire d'ouvrir un tableau Lotus, de sélectionner manuellement les coordonnées des points, les copier-coller sur un fichier Excel dédié au paramétrage, enregistrer et fermer le fichier Excel, ouvrir le Catalog LASauto, ouvrir la fenêtre de mise à jour, sélectionner tous les composants dans l'arbre, lancer la mise à jour, attendre quelques minutes, fermer le Catalog, ouvrir l'assemblage de travail, faire une mise à jour et vérifier que tout s'est bien passé.
 
-\par Ainsi, l'optimisation de la LAS d'un véhicule, typiquement pour un véhicule EPSA, nécessite de nombreuses itérations afin de tendre vers une géométrie et un confinement offrant une dynamique véhicule et un poids optimal. Il est donc primordial pour l'EPSA d'optimiser les mises à jour de LAS afin de gagner un temps considérable. Le but de ce projet est donc de permettre la mise à jour de l'Assemblage de Liaison au Sol du Véhicule dans Catia (Assemblage qui sera nommé plus tard simplement \textit{Suspension}), mise à jour possible directement en lançant la Macro, par lecture du fichier Lotus, sans intervention manuelle sur l'Assemblage et sans utiliser la technologie de Catalog. Il est également souhaité de pouvoir définir de façon adaptée les pièces de l'assemblage de travail.
+\par Ainsi, l'optimisation de la LAS d'un véhicule, typiquement pour un véhicule EPSA, nécessite de nombreuses itérations afin de tendre vers une géométrie et un confinement offrant une dynamique véhicule et un poids optimal. Il est donc primordial pour l'EPSA d'optimiser les mises à jour de LAS afin de gagner un temps considérable. Le but de ce projet est donc de permettre la mise à jour des composants à l'intérieur de l'Assemblage de Liaison au Sol du Véhicule dans Catia (Assemblage qui sera nommé plus tard simplement \texttt{Suspension}), mise à jour possible directement en lançant la Macro, par lecture du fichier Lotus, sans intervention manuelle sur l'Assemblage et sans utiliser la technologie de Catalog. Il est également souhaité de pouvoir définir de façon adaptée les pièces de l'assemblage de travail.
 
 \par L'intérêt de ce rapport est donc de permettre la compréhension du code et de pouvoir utiliser la macro convenablement.
 
@@ -53,11 +53,12 @@ Le fichier d'enregistrement de Lotus est de type \texttt{.dat}. Il s'agit d'un f
     \label{fig:frontSuspension}
 \end{figure}
 
-
+\newpage
 \subsection{Besoins du système LAS vis à vis de la maquette} % ----------------------
 
-\par Les besoins du système liaison au sol sont résumés ci-dessous.\\
+\par Les besoins du système liaison au sol sont résumés ci-dessous, représenté par d'abord le pseudo-code de l'application puis le cahier des charges qu'a dû respecter notre application.\\
 
+\paragraph{Pseudo-code}
 \noindent\textit{Inputs, obtenu grâce à l'utilisateur, après lancement de l'Userform} (cf Section \ref{interf_graph})
 \begin{itemize}
     \item Path du fichier Lotus .dat
@@ -66,10 +67,10 @@ Le fichier d'enregistrement de Lotus est de type \texttt{.dat}. Il s'agit d'un f
 \end{itemize}
 \textit{Running}
 \begin{itemize}
-    \item \textit{Appel du module LectLotus} (cf Section \ref{lect_lotus}),
+    \item \textbf{Appel du module LectLotus} (cf Section \ref{lect_lotus}),
         \subitem{- Lecture du fichier .dat}
         \subitem{- Récupération, dans des listes, des noms et des coordonnées des points du train avant et arrière}
-    \item \textit{Appel du module MajCatia} (cf Section \ref{majcatia}),
+    \item \textbf{Appel du module MajCatia} (cf Section \ref{majcatia}),
         \subitem{- Ouverture de fichier LotusPoint.CATPart}
         \subitem{- \textbf{Pour} i=1 à len (nom\_points train avant)}
             \subsubitem{- Si le point existe déjà :}

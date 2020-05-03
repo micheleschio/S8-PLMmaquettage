@@ -4,8 +4,8 @@
 \subsection{Principe de fonctionnement}
 
 \par La Fig. \ref{fig:idea} présente la structure type des fichiers de travail : l'idée est de laisser l'utilisateur définir un filaire \textit{ad hoc} dans le produit \texttt{WireframeDefinition.CATProduct} en créant des pièces (\texttt{Wireframe1.CATPart}, \texttt{Wireframe2.CATPart}, ...) avec des projections des points de \texttt{LotusPoints.CATPart}. La macro fait tout simplement une mise à jour des points dans  \texttt{LotusPoints.CATPart} avec les valeurs lus depuis un fichier \texttt{Lotus.dat} et appelle une mise à jour complète du produit \texttt{WireframeDefinition.CATProduct}. 
-\par Etant donné que les points du train avant et arrière ont les mêmes noms, \texttt{LotusPoints.CATPART} contiendra deux corps, permettant ainsi de différencier le train avant et arrière lors de la mise à jour.
-\par Ensuite, les pièces filaires (\texttt{Wireframe1.CATPart}, \texttt{Wireframe2.CATPart}, ...) peuvent être mises dans un produit séparé (\texttt{Suspension.CATProduct}) pour la conception détaillée. \\
+\par Etant donné que les points du train avant et arrière ont les mêmes noms, \texttt{LotusPoints.CATPart} contiendra deux corps, permettant ainsi de différencier le train avant et arrière lors de la mise à jour.
+\par Ensuite, les pièces filaires (\texttt{Wireframe1.CATPart}, \texttt{Wireframe2.CATPart}, ...) peuvent être mises dans un produit séparé (\texttt{Suspension.CATProduct}) pour la conception détaillée. 
 
 \paragraph{Voici les différents avantages de cette approche:}
 
@@ -35,10 +35,8 @@ Ainsi, le code fait tout d'abord une scan des points déjà présents dans \text
 
 
 
-\par Petit détail concernant la conception à l'EPSA : la conception détaillée est faite par convention sur la partie gauche du véhicule, puis mis en symétrie.
-\par Néanmoins, les points Lotus sont définis à droite : nous avons simplement changer le signe de la coordonnée \texttt{Y} afin de réaliser la symétrie.
+\par Petit détail concernant la conception à l'EPSA : la conception détaillée est faite par convention sur la partie gauche du véhicule, puis mis en symétrie. Néanmoins, les points Lotus sont définis à droite : nous avons simplement changer le signe de la coordonnée \texttt{Y} afin de réaliser la symétrie.
 
 \subsection{Précautions et points faibles} % ------------------------------------------------------
 
-\par Premièrement, nous remarquons que l'identification des points se base sur leur nom. Pour changer cette propriété, il faut rentrer directement dans le paramétrage du logiciel Lotus. \par On remarque deuxièmement que cette macro ne peut pas effacer des points dans \texttt{LotusPoints.CATPart}.
-Pour ce faire, il faut ouvrir manuellement la pièce dans Catia et supprimer les point dans l'arbre. L'intérêt de ceci est d'éviter que la macro efface les mauvais points si l'utilisateur n'est pas précautionneux et nomme de la même manière les nouveaux  points et ceux qu'il a supprimé dans Lotus.
+\par Premièrement, nous remarquons que l'identification des points se base sur leur nom. Pour changer cette propriété, il faut rentrer directement dans le paramétrage du logiciel Lotus. \par On remarque deuxièmement que cette macro ne peut pas effacer des points dans\\ \texttt{LotusPoints.CATPart}. Pour ce faire, il faut ouvrir manuellement la pièce dans Catia et supprimer les point dans l'arbre. L'intérêt de ceci est d'éviter que la macro efface les mauvais points si l'utilisateur n'est pas précautionneux et nomme de la même manière les nouveaux  points et ceux qu'il a supprimé dans Lotus.
